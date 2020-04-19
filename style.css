@@ -1,0 +1,21 @@
+.calc_screen{
+    height: 81px;
+    width:300px;
+}
+.calc_numbers{
+    display: flex;
+    flex-wrap: wrap;
+}
+.calc_number{
+    width: 125px;
+    height: 125px;
+    display: inline-block;
+    background: #191a1c;
+    color: #969ea5;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle !important;
+    margin-left: -5px;
+    padding-top: 40px;
+    cursor: pointer;
+}
